@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://local-svg-to-icon.yasoo.work/sitemap.xml

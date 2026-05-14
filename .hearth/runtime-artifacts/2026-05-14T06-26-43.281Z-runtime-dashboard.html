@@ -1,0 +1,226 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+
+  <title>Yasoo Runtime Dashboard</title>
+
+  <style>
+    body {
+      background: #0f172a;
+      color: white;
+      font-family: sans-serif;
+      padding: 32px;
+    }
+
+    .metrics {
+      display: grid;
+      grid-template-columns:
+        repeat(8, 1fr);
+
+      gap: 16px;
+
+      margin-bottom: 32px;
+    }
+
+    .metric {
+      background: #111827;
+      border-radius: 16px;
+      padding: 20px;
+    }
+
+    .metric-label {
+      color: #94a3b8;
+      font-size: 14px;
+      margin-bottom: 8px;
+    }
+
+    .metric-value {
+      font-size: 32px;
+      font-weight: bold;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      background: white;
+      color: black;
+      border-radius: 12px;
+      overflow: hidden;
+    }
+
+    th,
+    td {
+      padding: 12px;
+      border-bottom: 1px solid #ddd;
+      text-align: left;
+      vertical-align: top;
+    }
+
+    a {
+      color: #93c5fd;
+    }
+
+    pre {
+      margin: 0;
+      white-space: pre-wrap;
+      font-size: 12px;
+    }
+  </style>
+</head>
+
+<body>
+  <h1>Yasoo Runtime Dashboard</h1>
+
+  <p>
+    <a href="./mutation-graph.html">
+      Open Mutation Graph
+    </a>
+  </p>
+
+  <div
+    style="
+      margin-bottom: 24px;
+      padding: 20px;
+      border-radius: 16px;
+      background: #111827;
+    "
+  >
+    <h2
+      style="
+        margin-top: 0;
+      "
+    >
+      Runtime Environment
+    </h2>
+
+    <pre>{
+  "node": "v24.15.0",
+  "platform": "win32",
+  "arch": "x64",
+  "ci": false
+}</pre>
+  </div>
+
+  <div class="metrics">
+    <div class="metric">
+      <div class="metric-label">
+        Executed
+      </div>
+
+      <div class="metric-value">
+        0
+      </div>
+    </div>
+
+    <div class="metric">
+      <div class="metric-label">
+        Changed
+      </div>
+
+      <div class="metric-value">
+        0
+      </div>
+    </div>
+
+    <div class="metric">
+      <div class="metric-label">
+        Skipped
+      </div>
+
+      <div class="metric-value">
+        0
+      </div>
+    </div>
+
+    <div class="metric">
+      <div class="metric-label">
+        Failed
+      </div>
+
+      <div class="metric-value">
+        0
+      </div>
+    </div>
+
+    <div class="metric">
+      <div class="metric-label">
+        Rollback
+      </div>
+
+      <div class="metric-value">
+        0
+      </div>
+    </div>
+  </div>
+
+  <div class="metric">
+    <div class="metric-label">
+      Unchanged
+    </div>
+
+    <div class="metric-value">
+      0
+    </div>
+  </div>
+
+  <div class="metric">
+    <div class="metric-label">
+      Success Rate
+    </div>
+
+    <div class="metric-value">
+      0%
+    </div>
+  </div>
+
+  <div class="metric">
+    <div class="metric-label">
+      Change Rate
+    </div>
+
+    <div class="metric-value">
+      0%
+    </div>
+  </div>
+
+  <div class="metric">
+    <div class="metric-label">
+      Skip Rate
+    </div>
+
+    <div class="metric-value">
+      0%
+    </div>
+  </div>
+
+  <table>
+    <thead>
+      <tr>
+        <th>Owner</th>
+
+        <th>Strategy</th>
+
+        <th>Target</th>
+
+        <th>Success</th>
+
+        <th>Changed</th>
+
+        <th>Skipped</th>
+
+        <th>Rollback</th>
+
+        <th>Skip Reason</th>
+
+        <th>Invalidation</th>
+      </tr>
+    </thead>
+
+    <tbody>
+      
+    </tbody>
+  </table>
+</body>
+</html>

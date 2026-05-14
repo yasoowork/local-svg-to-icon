@@ -1,0 +1,18 @@
+{
+  "generatedAt": "2026-05-14T06:26:43.227Z",
+  "services": [
+    {
+      "id": "local-svg-to-icon",
+      "name": "local-svg-to-icon",
+      "description": "Generate favicon and app icons locally from SVG. Lightweight, browser-based, and privacy-friendly.",
+      "publicDescription": "Generate favicon and app icons locally from SVG. Lightweight, browser-based, and privacy-friendly.",
+      "projectType": "web-app",
+      "repo": "https://github.com/yasoowork/local-svg-to-icon",
+      "url": "https://local-svg-to-icon.yasoo.work",
+      "status": "developing",
+      "hosting": "",
+      "tags": [],
+      "feedbackEnabled": true
+    }
+  ]
+}

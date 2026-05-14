@@ -1,0 +1,15 @@
+node_modules/
+dist/
+coverage/
+
+.env
+.env.local
+
+_dev/
+
+.DS_Store
+Thumbs.db
+
+.yasoo/
+
+.validation-cache/

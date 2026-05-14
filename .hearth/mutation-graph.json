@@ -1,0 +1,31 @@
+[
+  {
+    "id": "vitest:tsconfig.json:0",
+    "planned": {
+      "mutation": {
+        "target": "tsconfig.json",
+        "strategy": "merge-json",
+        "owner": "vitest"
+      },
+      "order": 0,
+      "targetCategory": "tsconfig",
+      "ownershipClass": "shared",
+      "scheduling": "parallel"
+    },
+    "dependsOn": [],
+    "dependencyReasons": [],
+    "fingerprint": "{\"owner\":\"vitest\",\"target\":\"tsconfig.json\",\"strategy\":\"merge-json\",\"payload\":{\"target\":\"tsconfig.json\",\"strategy\":\"merge-json\",\"owner\":\"vitest\"}}",
+    "contentDependencies": [
+      "tsconfig.json"
+    ],
+    "conflictsWith": [],
+    "invalidated": true,
+    "invalidationReasons": [
+      {
+        "dependency": "runtime-cache",
+        "previousFingerprint": "missing",
+        "nextFingerprint": "{\"owner\":\"vitest\",\"target\":\"tsconfig.json\",\"strategy\":\"merge-json\",\"payload\":{\"target\":\"tsconfig.json\",\"strategy\":\"merge-json\",\"owner\":\"vitest\"}}"
+      }
+    ]
+  }
+]

@@ -1,0 +1,12 @@
+{
+  "summary": {
+    "total": 0,
+    "success": 0,
+    "failed": 0,
+    "skipped": 0,
+    "changed": 0,
+    "unchanged": 0,
+    "rollback": 0
+  },
+  "reports": []
+}
