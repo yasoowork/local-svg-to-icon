@@ -10,6 +10,8 @@ _dev/
 .DS_Store
 Thumbs.db
 
-.yasoo/
-
 .validation-cache/
+
+# Hearth Platform runtime
+.hearth/
+.hearth-runtime/
